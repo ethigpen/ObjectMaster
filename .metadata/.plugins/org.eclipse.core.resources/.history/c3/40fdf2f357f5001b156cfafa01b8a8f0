@@ -8,8 +8,6 @@ public class HumanTest {
 		Human num2 = new Human();
 		Wizard num3 = new Wizard();
 		Ninja num4 = new Ninja();
-		Samurai num5 = new Samurai();
-		Samurai num6 = new Samurai();
 		
 		num1.attack(num2);
 		System.out.println(num2.getHealth());
@@ -18,10 +16,5 @@ public class HumanTest {
 		num4.steal(num2);
 		num4.runAway();
 		System.out.println(num4.getHealth());
-		num5.deathBlow(num6);
-		num5.meditate();
-		System.out.println(num5.getHealth());
-		System.out.println(Samurai.howMany());
-		
 	}
 }

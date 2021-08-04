@@ -1,0 +1,15 @@
+package com.ethigpen.objectMaster;
+
+public class HumanTest {
+
+	public static void main(String [] args) {
+		
+		Human num1 = new Human();
+		Human num2 = new Human();
+		Wizard num3 = new Wizard();
+		
+		num3.fireball(num2);
+		System.out.println(num2.getHealth());
+		
+	}
+}

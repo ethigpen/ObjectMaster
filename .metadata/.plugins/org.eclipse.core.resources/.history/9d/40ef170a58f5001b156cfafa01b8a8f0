@@ -21,7 +21,7 @@ public class HumanTest {
 		num5.deathBlow(num6);
 		num5.meditate();
 		System.out.println(num5.getHealth());
-		System.out.println(Samurai.howMany());
+		Samurai.howMany();
 		
 	}
 }
